@@ -73,6 +73,7 @@ body {
 }
 
 .cover {
+    height: 757px;
     width: 100%;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
@@ -159,7 +160,7 @@ body {
         height: 100%;
     }
 
-    .lots{
+    .lots {
         margin: 180px 50px 181px 50px;
     }
 
