@@ -1,27 +1,27 @@
-body{
+body {
     background-color: #fff;
 }
 
-.header{
+.header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     padding: 92px 49px 92px 51px;
 }
 
-.header__menu{
+.header__menu {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.header__links-list{
+.header__links-list {
     display: flex;
     gap: 20px;
     list-style: circle;
 }
 
-.header__link{
+.header__link {
     padding-right: 13px;
     font-size: 18px;
     font-weight: 400;
@@ -29,24 +29,24 @@ body{
     text-underline-offset: 5px ;
 }
 
-.header__link_active{
+.header__link_active {
     text-decoration: none;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
     list-style-type: none;
 }
 
-.header__logo{
+.header__logo {
     padding-left: 157px;
 }
 
-.header__logo-photo{
+.header__logo-photo {
     width: 148px;
     height: 105px;
 }
 
-.address{
+.address {
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
@@ -55,16 +55,16 @@ body{
     font-family: Raleway;
 }
 
-.address__tel{
+.address__tel {
     text-underline-offset: 4px;
 }
 
-.address_mail{
+.address_mail {
     text-underline-offset: 4px;
 }
 
 
-.overlay{
+.overlay {
     padding: 165px 25px;
     background-color: rgb(0 0 0/0.6);
     width: 100%;
@@ -72,7 +72,7 @@ body{
     
 }
 
-.cover{
+.cover {
     width: 100%;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
@@ -83,7 +83,7 @@ body{
     
 }
 
-.cover__title{
+.cover__title {
     width: 100%;
     color: #fff;
     font-family: Raleway;
@@ -96,23 +96,23 @@ body{
 }
 
 
-.accent__span{
+.accent__span {
     display: block;
 }
 
-.aligned-text{
+.aligned-text {
     padding-left: 43px;
     word-spacing: -25px;
 }
 
-.aligned-text_center{
+.aligned-text_center {
     text-align: center;
     padding-top: 13px;
     padding-right: 43px;
     word-spacing: -22px;
 }
 
-.aligned-text_right{
+.aligned-text_right {
     text-align: right;
     padding-right: 25px;
     padding-top: 5px;
@@ -120,7 +120,7 @@ body{
     padding-bottom: 127px;
 }
 
-.cover__description{
+.cover__description {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,7 +129,7 @@ body{
     color:#fff
 }
 
-.cover__description-text{
+.cover__description-text {
     word-spacing: 20px;
     text-align: center;
     font-family: Raleway;
@@ -140,7 +140,7 @@ body{
     color:#fff;
 }
 
-.bet-button{
+.bet-button {
     background-color: transparent;
     padding: 12px 32px;
     border: solid #fff 1px;
@@ -153,7 +153,7 @@ body{
     color: inherit
     }
 
-    .overlay__card{
+    .overlay__card {
         background-color: rgb(0 0 0/0.6);
         width: 100%;
         height: 100%;
@@ -163,7 +163,7 @@ body{
         margin: 180px 50px 181px 50px;
     }
 
-    .lots_heading{
+    .lots_heading {
         color: #000;
         font-family: Raleway;
         font-size: 40px;
@@ -173,7 +173,7 @@ body{
         margin-left: 90px;
     }
 
-    .lots__card-list{
+    .lots__card-list {
         display: flex;
         flex-grow: 1;
         justify-content: center;
@@ -181,7 +181,7 @@ body{
         list-style: none;
     }
 
-    .card{
+    .card {
         width: 430px;
         height: 450px;
         margin-bottom: 30px;
@@ -190,11 +190,11 @@ body{
 
 
 
-    .card-link{
+    .card-link {
         text-decoration: none;
     }
 
-    .card_type_film{
+    .card_type_film {
         background-image: url(../images/card-lot-01.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -202,14 +202,14 @@ body{
         
     }
 
-    .card_type_book{
+    .card_type_book {
         background-image: url(../images/card-lot-02.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
 
-    .card_type_picture{
+    .card_type_picture {
         background-image: url(../images/card-lot-03.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -217,7 +217,7 @@ body{
     }
 
     
-    .card__title{
+    .card__title {
         color: #FFF;
         font-family: Raleway;
         font-size: 22px;
@@ -232,7 +232,7 @@ body{
 
     }
 
-    .card__text{
+    .card__text {
         color: #FFF;
         font-family: Raleway;
         font-size: 20px;
@@ -242,20 +242,20 @@ body{
         padding-right: 40px;
     }
 
-    .card__title_film{
+    .card__title_film {
         padding-bottom: 202px;
     }
 
-    .card__title-book{
+    .card__title-book {
         padding-bottom: 30px;
     }
 
-    .card__title-picture{
+    .card__title-picture {
         padding-bottom: 84px;
     }
 
 
-    .lots__look-more-link{
+    .lots__look-more-link {
         color: #000;
         font-family: Raleway;
         font-size: 20px;
@@ -267,19 +267,19 @@ body{
 
 
 
-    .about{
+    .about {
         margin: 0 50px;
         margin-bottom: 180px;
     }
 
 
-    .about__column{
+    .about__column {
         display: grid;
         grid-template-columns: 450px 1fr;
         align-content: center;
     }
 
-    .about__logo{
+    .about__logo {
         background-color: #000;
         border-radius: 100%;
         height: 240px;
@@ -290,7 +290,7 @@ body{
     }
 
 
-    .about__title{
+    .about__title {
         color: #000;
         font-family: Raleway;
         font-size: 40px;
@@ -301,7 +301,7 @@ body{
     }
 
 
-    .about__text{
+    .about__text {
         color: #000;
         font-family: Raleway;
         font-size: 20px;
@@ -314,13 +314,13 @@ body{
 
 
 
-    .footer{
+    .footer {
         display: flex;
         justify-content: space-between;
         margin: 180px 50px 90px 50px ;
     }
 
-    .footer__address{
+    .footer__address {
         font-size: 18px;
         font-weight: 400;
         line-height: 24.3px;
@@ -328,25 +328,25 @@ body{
     }
 
 
-    .footer__menu-list{
+    .footer__menu-list {
        list-style: none;
        display: flex;
        flex-direction: column;
        align-items: center;
     }
 
-    .footer__menu-list-item{
+    .footer__menu-list-item {
         font-size: 18px;
         font-weight: 400;
         line-height: 21px;
         text-underline-offset: 5px;
     }
 
-    .footer__menu-link_activ{
+    .footer__menu-link_activ {
         text-decoration: none;
     }
 
-    .footer__social-list{
+    .footer__social-list {
         display: flex;
         width: 240px;
         height: 48px;
