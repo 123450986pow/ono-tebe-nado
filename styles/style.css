@@ -28,7 +28,7 @@
     text-decoration: none;
 }
 
-.header__links-list-item{
+.header__links-list-item {
     padding-right: 12px;
 }
 
@@ -101,7 +101,7 @@
     display: block;
 }
 
-.letter-1{
+.letter-1 {
     letter-spacing: 59px;
 }
 
@@ -111,7 +111,7 @@
     
 }
 
-.letter-2{
+.letter-2 {
     letter-spacing: 59px;
 }
 
@@ -121,11 +121,11 @@
     letter-spacing: 60px;
 }
 
-.letter-3{
+.letter-3 {
     letter-spacing: 30px;
 }
 
-.letter-3-o{
+.letter-3-o {
     letter-spacing: 0;
 }
 
@@ -169,7 +169,7 @@
     margin: 180px 50px 181px 50px;
 }
 
-.text{
+.text {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -308,7 +308,7 @@
     font-weight: 400;
 }
 
-.about__text-2{
+.about__text-2 {
     margin-top: 25px;
     padding-right: 30px;
 }
@@ -350,7 +350,7 @@
     list-style: none;
 }
 
-.footer__social-icon{
+.footer__social-icon {
     width: 50px;
     height: 50px;
 }
